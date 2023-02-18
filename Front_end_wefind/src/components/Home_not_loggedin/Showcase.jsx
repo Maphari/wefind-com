@@ -1,13 +1,13 @@
 import React, { Fragment } from "react";
 
 // CSS IMPORTS
-import "../css/showcase.css";
-import "../css/mediaQuerie.css";
+import "../../css/showcase.css";
+import "../../css/mediaQuerie.css";
 
 // images IMPORTS
-import icon from "./img/icon.png";
-import show from "./img/show.png";
-import phone from "./img/phone.png";
+import icon from "../img/icon.png";
+import show from "../img/show.png";
+import phone from "../img/phone.png";
 
 export default function Showcase() {
   return (

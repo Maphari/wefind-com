@@ -262,3 +262,47 @@
 }
 
 /* ######################################HOW IT WORKS MEDIA QUERY ENDS HERE######################################## */
+
+/*SECTION=>4*/
+/* ######################################MEDIA QUERY FOR NEWS LETTER SECTION######################################## */
+@media screen and (max-width: 43.875rem) {
+  h1.news-letter-container__title {
+    font-size: 1.9rem !important;
+  }
+}
+
+@media screen and (max-width: 41rem) {
+  h1.news-letter-container__title {
+    font-size: 1.6rem !important;
+  }
+}
+
+@media screen and (max-width: 37.5rem) {
+  h1.news-letter-container__title {
+    font-size: 1.3rem !important;
+  }
+  input.input{
+    max-width: 40% !important;
+  }
+}
+
+@media screen and (max-width: 29.5rem) {
+  h1.news-letter-container__title {
+    font-size: 1.2rem !important;
+  }
+  p.news-letter-container__para {
+    font-size: 0.8rem !important;
+  }
+}
+
+@media screen and (max-width: 29.5rem) {
+  h1.news-letter-container__title {
+    font-size: 1rem !important;
+  }
+  p.news-letter-container__para {
+    font-size: 0.6rem !important;
+  }
+}
+/* ######################################NEWS LETTER MEDIA QUERY ENDS HERE######################################## */
+
+

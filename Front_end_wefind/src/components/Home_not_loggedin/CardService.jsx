@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 
 // CSS IMPORTS
-import "../css/service.css";
-import "../css/mediaQuerie.css";
+import "../../css/service.css";
+import "../../css/mediaQuerie.css";
 
 export default function CardsService(props) {
   return (

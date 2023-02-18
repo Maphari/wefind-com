@@ -103,3 +103,11 @@ span.span-head {
   color: var(--primary-color)
 }
 
+/* NAVIGATION FOR SMALL SCREEN */
+div.links-small-screen {
+  background-color: #0fc864;
+  height: 50vh;
+  width: 70%;
+  position: absolute;
+  z-index: 2;
+}

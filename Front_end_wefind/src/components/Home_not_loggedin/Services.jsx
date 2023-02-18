@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 
 // CSS IMPORTS
-import "../css/service.css";
-import "../css/mediaQuerie.css";
+import "../../css/service.css";
+import "../../css/mediaQuerie.css";
 
 // COMPONENTS IMPORTS
 import CardsService from "./CardService";

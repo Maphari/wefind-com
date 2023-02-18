@@ -1,9 +1,9 @@
 import React from "react";
 
 // CSS IMPORTS
-import "../css/howItWork.css";
+import "../../css/howItWork.css";
 // media query
-import "../css/mediaQuerie.css";
+import "../../css/mediaQuerie.css";
 
 export default function HowItWorksCard (props) {
     return (

@@ -1,8 +1,8 @@
 import React from "react";
 
 // CSS IMPORTS
-import "../css/newsLetter.css";
-import "../css/mediaQuerie.css";
+import "../../css/newsLetter.css";
+import "../../css/mediaQuerie.css";
 
 export default function NewsLetter() {
   return (
@@ -20,7 +20,7 @@ export default function NewsLetter() {
           <div className="form">
             <form action="#">
               <input type="email" name="email" className="input" placeholder="Enter email address"/>
-              <button>Submit</button>
+              <button className="button-submit-email">Submit</button>
             </form>
           </div>
         </div>
