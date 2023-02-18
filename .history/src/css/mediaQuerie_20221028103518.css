@@ -1,0 +1,33 @@
+/* MEDIA QUERIES FOR THE NAVIGATION-BAR*/
+@media screen and (max-width: 55rem) {
+  .nav-container .nav-container__links-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 55rem) {
+  .nav .smaller {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 24.625rem) {
+  .nav {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+/* MEDIA QUERY FOR SHOW CASE CONTAINER */
+@media screen and (max-width: 70.625rem) {
+ img.big-image {
+    display: none;
+ }
+}
+
+@media screen and (min-width: 70.625rem) {
+ img.small-image {
+    display: none;
+    height: ;
+ }
+}

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* GLOBAL STYLES */
+/* GOOGLE LINKS */
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Signika&display=swap');
+/* variables */
+:root{
+    /*  */
+    --default: sans-serif;
+    --primary-font: 'Signika', var(--default);
+    --secondary-font: 'Roboto', var(var(--default));
+    --teriary-font: 'Lato', var(var(--default));
+}

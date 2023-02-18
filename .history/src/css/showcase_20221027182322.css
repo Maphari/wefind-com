@@ -1,0 +1,33 @@
+.showcase-container {
+  padding: 0 5rem;
+  font-family: var(--primary-font);
+}
+/* SHOWCASE CONTAINER */
+div.container {
+  max-width: 80rem;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+/* mainc=>container header*/
+h1.showcase-container__header {
+  color: var(--gray);
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 40px;
+}
+
+p.showcase-container__para {
+    color: var(--gray);
+    font-weight: 500;
+    line-height: 22px;
+}
+
+button.btn {
+    background-color: var(--primary-color);
+    padding: 0.5rem 3rem;
+    color: var(--white);
+    border-radius: 5px;
+}

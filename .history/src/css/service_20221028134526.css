@@ -1,0 +1,77 @@
+div.container-service {
+  background-color: var(--primary-color);
+  padding: 1.5rem 5rem;
+}
+
+div.container-serv {
+  max-width: 71.25rem;
+  margin: auto;
+}
+
+h1.container-service__header {
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: var(--primary-font);
+  margin-bottom: 2rem;
+}
+
+h1.container-service__information__header {
+  font-family: var(--primary-font);
+  color: var(--white);
+  font-size: 1.7rem;
+}
+
+div.container-service__information {
+  background-color: var(--secondary-color);
+  padding: 1.5rem 2rem;
+  max-width: 22rem;
+  mar
+}
+div.container-service__information:hover {
+  transition: all 900ms ease-out;
+  transform: translateY(-10px);
+}
+div.container-service__information-i {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+div.containerr {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1.5rem;
+  justify-content: center;
+}
+
+span.span-number {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 0.2rem;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--primary-font);
+  font-size: 1.7rem;
+}
+
+p.container-service__information__para {
+  font-family: var(--primary-font);
+  text-align: center;
+  margin-top: 0.7rem;
+  color: var(--white);
+  line-height: 1.5rem;
+}
+
+button.container-service__information__btn {
+  background-color: var(--primary-color);
+  width: 100%;
+  margin-top: 0.7rem;
+  padding: 0.7rem;
+  color: var(--white);
+  border-radius: 5px;
+  font-family: var(--primary-font);
+}

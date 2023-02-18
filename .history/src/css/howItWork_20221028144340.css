@@ -1,0 +1,21 @@
+div.how-it-works-container {
+  padding: 1.5rem 5rem;
+}
+
+div.how-containerr {
+  max-width: 71.25rem;
+  margin: auto;
+}
+
+h1.how-containerr__title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--gray);
+    font-family: var(--primary-font);
+    line-height: 40px;
+}
+
+div.how-it-works-cards__images {
+    width: 10rem;
+    margin: 
+}

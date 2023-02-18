@@ -1,0 +1,33 @@
+div.container-service {
+  background-color: var(--primary-color);
+  padding: 1.5rem 5rem;
+}
+
+div.container-serv {
+  max-width: 71.25rem;
+  margin: auto;
+}
+
+h1.container-service__header{
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: var(--primary-font);
+}
+
+div.container-service__information {
+    background-color: var(--secondary-color);
+    padding: 0.7rem 1.5rem
+}
+div.container-service__information-i {
+    display: flex;
+}
+div.containerr {
+    display: flex;
+}
+
+span.span-number{ 
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 0.5rem;
+}

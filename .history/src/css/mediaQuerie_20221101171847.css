@@ -1,0 +1,267 @@
+/* SECTION=>1 */
+/* ######################################MEDIA QUERIES FOR THE NAVIGATION-BAR######################################## */
+@media screen and (max-width: 55rem) {
+  .nav-container .nav-container__links-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 55rem) {
+  .nav .smaller {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 24.625rem) {
+  .nav {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+/* MEDIA QUERY FOR SHOW CASE CONTAINER */
+@media screen and (max-width: 70.625rem) {
+  img.big-image {
+    display: none;
+  }
+  img.small-image {
+    height: 30rem;
+  }
+}
+
+@media screen and (min-width: 70.625rem) {
+  img.small-image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 58.5rem) {
+  h1.showcase-container__header {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 53.625rem) {
+  h1.showcase-container__header {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 50rem) {
+  h1.showcase-container__header {
+    font-size: 1.3rem;
+  }
+  img.small-image {
+    height: 25rem;
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 46.625rem) {
+  h1.showcase-container__header {
+    font-size: 1.2rem;
+  }
+  img.small-image {
+    height: 23rem;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 43.75rem) {
+  h1.showcase-container__header {
+    font-size: 1.2rem;
+  }
+  img.small-image {
+    height: 21rem;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 41.25rem) {
+  h1.showcase-container__header {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    line-height: 2rem;
+  }
+  img.small-image {
+    height: 20rem;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 39.25rem) {
+  h1.showcase-container__header {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    line-height: 1.7rem;
+    /* text-align: center; */
+  }
+}
+
+@media screen and (max-width: 38.75rem) {
+  h1.showcase-container__header {
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+  }
+  div.container {
+    display: flex;
+    flex-direction: column;
+  }
+  div.showcase-container {
+    padding: 0;
+  }
+
+  div.showcase-container__section {
+    width: calc(30rem - 2vw);
+  }
+  button.btn {
+    width: 100%;
+  }
+
+  p.get-mobile {
+    text-align: center;
+  }
+  div.btn-btn {
+    display: flex;
+    justify-content: center;
+  }
+  div.inpara {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 31rem) {
+  div.showcase-container__section {
+    width: calc(25rem - 2vw);
+  }
+}
+
+@media screen and (max-width: 26.5rem) {
+  div.showcase-container__section {
+    width: calc(22rem - 2vw);
+  }
+  h1.showcase-container__header {
+    font-size: 1.2rem;
+  }
+  div.container-service__information {
+    width: 20rem !important;
+  }
+}
+
+@media screen and (max-width: 23.375rem) {
+  div.showcase-container__section {
+    width: calc(20rem - 2vw);
+  }
+  h1.showcase-container__header {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 22.5rem) {
+  button.btn {
+    width: 100%;
+  }
+}
+/* ######################################MEDIA QUERRY FOR NAVIGATION ENDS HERE######################################## */
+
+/*SECTION=>2*/
+/* ######################################MEDIA QUERY FOR SERVICES SECTION######################################## */
+@media screen and (max-width: 31.875rem) {
+  div.container-service {
+    background-color: red;
+  }
+
+  div.how-it-works-container {
+    display: flex;
+    /* justify-content: flex-end;
+    align-items: flex-end; */
+  }
+}
+/* ######################################MEDIA QUERY FOR SERVICES ENDS HERE######################################## */
+
+/* SECTION=>3 */
+/* ######################################HOW IT WORKS MEDIA QUERY######################################## */
+@media screen and (max-width: 74.875rem) {
+  div.how-it-works-cards {
+    width: 25rem;
+  }
+
+  h1.how-it-works-cards__information-title {
+    font-size: 1.3rem !important;
+  }
+}
+@media screen and (max-width: 65rem) {
+  div.how-it-works-cards {
+    width: 23rem;
+  }
+  h1.how-it-works-cards__information-title {
+    font-size: 1.1rem !important;
+  }
+}
+
+@media screen and (max-width: 59.75rem) {
+  h1.how-it-works-cards__information-title {
+    font-size: 1.1rem !important;
+  }
+} 
+
+@media screen and (max-width: 58.375rem) {
+  h1.how-it-works-cards__information-title {
+    font-size: 1rem !important;
+  }
+  div.how-it-works-cards {
+    width: 22rem;
+  }
+
+  
+} 
+@media screen and (max-width: 56.375rem) {
+  div.how-it-works-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  h1.how-it-works-cards__information-title {
+    text-align: center;
+  }
+  div.how-it-works-cards__images,
+  div.how-it-works-cards__information-btn {
+    display: flex;
+    justify-content: center;
+  }
+   
+} 
+@media screen and (max-width: 56.25rem) {
+  div.line {
+    display: none;
+  }
+   div.how-it-works-cards {
+    border: 1px solid gray;
+    margin-bottom: 0.5rem;
+    padding-bottom: 1rem;
+   }
+} 
+
+@media screen and (max-width: 55.063rem) {
+ div.info {
+  display: flex;
+  justify-content: center !important;
+ }
+ div.how-it-works-cards {
+  margin-top: 1rem;
+ }
+} 
+@media screen and (max-width: 55.063rem) {
+ div.info {
+  display: flex;
+  justify-content: center !important;
+ }
+ div.how-it-works-cards {
+  margin-top: 1rem;
+ }
+} 
+
+
+
+/* ######################################HOW IT WORKS MEDIA QUERY ENDS HERE######################################## */

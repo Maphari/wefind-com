@@ -1,0 +1,17 @@
+.showcase-container {
+  padding: 0 5rem;
+  font-family: var(--primary-font);
+}
+/* SHOWCASE CONTAINER */
+.showcase-container .container {
+  max-width: 80rem;
+  margin: auto;
+}
+
+/* mainc=>container header*/
+h1.showcase-container__header {
+  color: var(--gray);
+  font-weight: bold;
+  font-size: 1.9rem;
+  line-height: 44px;
+}

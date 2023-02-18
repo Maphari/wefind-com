@@ -1,0 +1,9 @@
+div.container-footer {
+    background-color: var(--secondary-color);
+}
+
+div.main-logo {
+    display: flex;
+    justify-content: center;
+    
+}

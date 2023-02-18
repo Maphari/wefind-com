@@ -1,0 +1,10 @@
+div.container-footer {
+    background-color: var(--secondary-color);
+}
+
+div.main-logo {
+    display: flex;
+    align-items: center;
+
+    padding: 1.5rem 5rem;
+}

@@ -1,0 +1,10 @@
+/* HEADER RULES */
+.nav .nav-container .nav-container__header{
+    display: flex; 
+}
+/* IMAGE RULES */
+.nav .nav-container .nav-container__header{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+}

@@ -1,0 +1,10 @@
+div.news-letter-container {
+  padding: 1.5rem 5rem;
+  background-color: var(--primary-color);
+}
+
+div.news-letter-container__containerr {
+  max-width: 71.25rem;
+  margin: auto;
+}
+

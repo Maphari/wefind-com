@@ -1,0 +1,29 @@
+div.news-letter-container {
+  padding: 1.5rem 5rem;
+  background-color: var(--primary-color);
+}
+
+div.news-letter-container__containerr {
+  max-width: 71.25rem;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+/* HEADER FOR NEWS LETTER */
+h1.news-letter-container__title {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 34px;
+  color: var(--white);
+  text-align: center;
+}
+p.news-letter-container__para {
+    font-family: var(--primary-font);
+    color: var(--white);
+    text-align: center;
+}
+
+input[type]

@@ -1,0 +1,228 @@
+/* MEDIA QUERIES FOR THE NAVIGATION-BAR*/
+@media screen and (max-width: 55rem) {
+  .nav-container .nav-container__links-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 55rem) {
+  .nav .smaller {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 24.625rem) {
+  .nav {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+/* MEDIA QUERY FOR SHOW CASE CONTAINER */
+@media screen and (max-width: 74.875rem) {
+  div.how-it-works-cards-1,
+  div.how-it-works-cards {
+    width: 25rem;
+  }
+
+  h1.how-it-works-cards__information-title {
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 70.625rem) {
+  img.big-image {
+    display: none;
+  }
+  img.small-image {
+    height: 30rem;
+  }
+}
+
+@media screen and (min-width: 70.625rem) {
+  img.small-image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 62.75rem) {
+  div.how-it-works-cards-1,
+  div.how-it-works-cards {
+    width: 23rem;
+  }
+  div.how-it-works-cards__information-btn {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+  }
+  button.btn-btn-1,
+  button.btn-btn-2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 58.5rem) {
+  h1.showcase-container__header {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 58.25rem) {
+  div.how-it-works-cards,
+  div.how-it-works-cards-1 {
+    width:100%;
+  }
+
+  h1.how-it-works-cards__information-title {
+    font-size: 1.6rem !important;
+  }
+}
+
+@media screen and (max-width: 53.625rem) {
+  h1.showcase-container__header {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 50rem) {
+  h1.showcase-container__header {
+    font-size: 1.3rem;
+  }
+  img.small-image {
+    height: 25rem;
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 46.625rem) {
+  h1.showcase-container__header {
+    font-size: 1.2rem;
+  }
+  img.small-image {
+    height: 23rem;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 43.75rem) {
+  h1.showcase-container__header {
+    font-size: 1.2rem;
+  }
+  img.small-image {
+    height: 21rem;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 41.25rem) {
+  h1.showcase-container__header {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    line-height: 2rem;
+  }
+  img.small-image {
+    height: 20rem;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 39.25rem) {
+  h1.showcase-container__header {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    line-height: 1.7rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 38.75rem) {
+  div.container {
+    display: flex;
+    flex-direction: column;
+  }
+  div.showcase-container {
+    padding: 0;
+  }
+
+  div.showcase-container__section {
+    width: calc(30rem - 2vw);
+  }
+  button.btn {
+    width: 100%;
+  }
+
+  p.get-mobile {
+    text-align: center;
+  }
+  div.btn-btn {
+    display: flex;
+    justify-content: center;
+  }
+  div.inpara {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 31rem) {
+  div.showcase-container__section {
+    width: calc(25rem - 2vw);
+  }
+}
+
+@media screen and (max-width: 26.5rem) {
+  div.showcase-container__section {
+    width: calc(22rem - 2vw);
+  }
+}
+
+@media screen and (max-width: 23.375rem) {
+  div.showcase-container__section {
+    width: calc(20rem - 2vw);
+  }
+}
+
+@media screen and (max-width: 22.5rem) {
+  button.btn {
+    width: 100%;
+  }
+}
+
+/* MEDIA QUERY FOR SERVICES SECTION */
+@media screen and (max-width: 31.875rem) {
+  div.container-service {
+    background-color: red;
+  }
+
+  div.how-it-works-container {
+    display: flex;
+    /* justify-content: flex-end;
+    align-items: flex-end; */
+  }
+}
+
+/* HOW IT WORKS MEDIA QUERY */
+@media screen and (max-width: 43.875rem) {
+  div.how-it-works-cards,
+  div.how-it-works-cards-1 {
+    padding: 0 2rem;
+  }
+
+  h1.how-containerr__title {
+    padding: 2rem 2.5rem 0;
+  }
+
+  div.how-it-works-container {
+    padding: 0 !important;
+  }
+}
+
+@media screen and (max-width: 37.75rem) {
+  div.how-it-works-cards,
+  div.how-it-works-cards-1 {
+    width: 35rem;
+  }
+  h1.how-it-works-cards__information-title {
+    font-size: 1.3rem !important;
+  }
+}
+

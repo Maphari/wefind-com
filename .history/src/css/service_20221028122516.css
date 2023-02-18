@@ -1,0 +1,16 @@
+div.container-service {
+  background-color: var(--primary-color);
+  padding: 1.5rem 5rem;
+}
+
+div.container-serv {
+  max-width: 71.25rem;
+  margin: auto;
+}
+
+h1.container-service__header{
+    color: var(--gray);
+    font-size: 2rem;
+    font-weight: bold;
+    font
+}

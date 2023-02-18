@@ -1,0 +1,16 @@
+div.news-letter-container {
+  padding: 1.5rem 5rem;
+  background-color: var(--primary-color);
+}
+
+div.news-letter-container__containerr {
+  max-width: 71.25rem;
+  margin: auto;
+}
+
+/* HEADER FOR NEWS LETTER */
+h1.news-letter-container__title {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size:
+}
